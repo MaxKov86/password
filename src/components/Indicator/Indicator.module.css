@@ -1,0 +1,50 @@
+.indicators {
+  display: flex;
+  justify-content: space-between;
+  gap: 3px;
+  margin-top: 5px;
+}
+
+.weak {
+  width: 100%;
+  height: 4px;
+  background: rgba(236, 231, 231, 0.884);
+  border-radius: 2px;
+}
+.medium {
+  width: 100%;
+  height: 4px;
+  background: rgba(236, 231, 231, 0.884);
+  border-radius: 2px;
+}
+.strong {
+  width: 100%;
+  height: 4px;
+  background: rgba(236, 231, 231, 0.884);
+  border-radius: 2px;
+}
+
+.activeWeak {
+  background: red;
+}
+.activeMedium {
+  background: orange;
+}
+.activeStrong {
+  background: green;
+}
+
+.text {
+  display: inline;
+  margin: 0;
+}
+
+.textRed {
+  color: red;
+}
+.textOrange {
+  color: orange;
+}
+.textGreen {
+  color: green;
+}
